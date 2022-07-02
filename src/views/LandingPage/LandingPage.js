@@ -12,7 +12,7 @@ import Footer from "components/Footer/Footer.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
-// import HeaderLinks from "components/Header/HeaderLinks.js";
+import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 import Fade from "react-reveal/Fade";
 
@@ -21,7 +21,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.js";
 import VideoSection from "./Sections/VideoSection.js";
-// import TeamSection from "./Sections/TeamSection.js";
+import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/RoadmapSection.js";
 import Gallery from "./Sections/Gallery.js";
 import Story from "./Sections/Story.js";
@@ -39,15 +39,15 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Disco Astronaut Club"
-        // rightLinks={<HeaderLinks />}
+        brand="Invisible Universe"
+        rightLinks={<HeaderLinks />}
         absolute
         {...rest}
       />
       <Parallax
         filter
         image={
-          "https://ik.imagekit.io/5ierklngtbt/img/DACWide_mib5GvxUw.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1643766020863"
+          "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_2.41.33_PM_2D_07R86W.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656367762282"
         }
         alt="Disco Astronaut Club"
       >
@@ -55,22 +55,20 @@ export default function LandingPage(props) {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Disco Astronaut Club</h1>
-                <h2 className={classes.subtitle}>
-                  Your Ticket to the Greatest Festival in the Universe.
-                </h2>
-                <h4>A Next Generation Music-NFT Project Minting in 2022</h4>
+                <h1 className={classes.title}>Invisible Universe</h1>
+                <h2 className={classes.subtitle}>The Real Metaverse</h2>
+                <h4>Minting Soon</h4>
                 <br />
                 <Button
                   color="twitter"
                   size="lg"
-                  href="https://youtu.be/ezRnFj08KlI"
+                  href="https://www.youtube.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={classes.titleButton}
                 >
                   <i className="fas fa-play" />
-                  Trailer
+                  Producers Portal
                 </Button>
                 {/* <Button
                   color="twitter"
@@ -101,7 +99,9 @@ export default function LandingPage(props) {
         </div>
         <Story />
         <div className={classNames(classes.main, classes.mainRaised)}>
-          <div className={classes.container}>{/* <TeamSection /> */}</div>
+          <div className={classes.container}>
+            <TeamSection />
+          </div>
         </div>
       </div>
       <Footer />

@@ -15,55 +15,40 @@ const useStyles = makeStyles(styles);
 const roadmapItems = [
   {
     phase: 1,
-    img: "https://ik.imagekit.io/5ierklngtbt/img/Helmet_Icon_1_oJ6O6-rbJ?ik-sdk-version=javascript-1.4.3&updatedAt=1643768868927",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.41.55_PM_kGbZLfnvs9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656369758022",
     items: [
       {
-        title: "The Most Sophisticated Media Operation in Web3",
+        title: "Rarity",
         description:
-          "NFT Mint. The First On-Chain, Virtually Native Media Franchise. A higher bar for art, music and visual media. The DAC leverages advanced virtual production techniques to create radically compelling entertainment and bring the Disconauts to life. Next-Gen Immersive Virtual Media and 3D Art.",
+          "The major categories that are being randomized, highlighting the 100+ traits that are algorithmically generated to create unique passes. We can also display an Ultra Rare hand made NFT here pointing out only 20 will be made.",
       },
-      {
-        title: "Original Music",
-        description:
-          "Incredible Original Music, DAC will have original music drops.",
-      },
+      // {
+      //   title: "Original Music",
+      //   description:
+      //     "Incredible Original Music, DAC will have original music drops.",
+      // },
     ],
   },
   {
     phase: 2,
-    img: "https://ik.imagekit.io/5ierklngtbt/img/Helmet_Icon_2_0C6lwYZ4I?ik-sdk-version=javascript-1.4.3&updatedAt=1643768902961",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.41.59_PM_mBP4M6AxQ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656369757757",
     items: [
       {
-        title: "Live Shows and Events",
+        title: "Hollywood",
         description:
-          "Unforgettable Live Events, VIP Access to DAC Concerts, Private Events and Destination Music Festivals. Owning a DAC NFT acts as a VIP access token to live concerts, club nights, private events, DAC club-houses, and curated destination music festivals.",
-      },
-      {
-        title: "Luxury Fashion",
-        description:
-          "Access to Exclusive and Limited Edition Luxury Fashion Merchandise. Each Disconaut has a unique look that leans into various sub-genres of music culture. Own the physical merchandise of your on-chain NFT.",
-      },
-      {
-        title: "Own The Moment",
-        description:
-          "Mint Collections from Disconaut Shows. Own a moment from that concert.",
+          "This animated parody of a House Reality show features cast members from five different NFT communities who are transported to LA to experience life in the real world. And, just like a reality TV show, our cast is ready for primetime! Fights? Parties? Bad Advice? Let’s just say, they’ll share a house, make some jokes, make some mistakes, and maybe even make out! Join our community to influence cast decisions, create episodes, and control the fate of Season 2! ",
       },
     ],
   },
   {
     phase: 3,
-    img: "https://ik.imagekit.io/5ierklngtbt/img/Helmet_Icon_3_HvuJndXuL?ik-sdk-version=javascript-1.4.3&updatedAt=1643768808897",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.42.11_PM_239UtY-Dx.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656369757639",
     items: [
       {
-        title: "Mint 2",
+        title: "Beverly Hills",
         description:
-          "10K Animated Disconauts dancing to 10K Original pieces of music. Fully animated, interactive lighting and music.",
+          "This animated parody of a House Reality show features cast members from five different NFT communities who are transported to LA to experience life in the real world. And, just like a reality TV show, our cast is ready for primetime! Fights? Parties? Bad Advice? Let’s just say, they’ll share a house, make some jokes, make some mistakes, and maybe even make out! Join our community to influence cast decisions, create episodes, and control the fate of Season 2! ",
       },
-      // {
-      //   title: "Metaverse Concert Platform",
-      //   description:
-      //     "The full festival experience, virtualized. First Access to Our Virtual Concert Platform Virtualized Music Festivals; custom light shows and visuals, live DJ Sets, and larger than life venues. Accessible through streaming services and VR. NFT Staking to Accumulate a Social and Governance Token, Giving the Holder Increasing Voting Rights in Project Activities and Access to Future Whitelists.",
-      // },
     ],
   },
 ];
@@ -79,7 +64,7 @@ export default function WorkSection() {
               <h1 className={classes.title}>Roadmap</h1>
               <h4 className={classes.description}>
                 {
-                  "The Disco Astronaut Club is the first on-chain, virtual native media franchise producing top of the line music, next generation visual media and art, and unforgettable live events. We are working hard to establish the DAC with a strong community and brand!"
+                  "This animated parody of a House Reality show features cast members from five different NFT communities who are transported to LA to experience life in the real world. And, just like a reality TV show, our cast is ready for primetime! Fights? Parties? Bad Advice? Let’s just say, they’ll share a house, make some jokes, make some mistakes, and maybe even make out! Join our community to influence cast decisions, create episodes, and control the fate of Season 2! "
                 }
               </h4>
             </div>
@@ -94,7 +79,7 @@ export default function WorkSection() {
                     className={classes.roadmapDot}
                   />
                   <div className={classes.roadmapSection}>
-                    <h1 className={classes.roadmapPhase}>PHASE {r.phase}</h1>
+                    <h1 className={classes.roadmapPhase}>{r.phase}</h1>
                     {r.items.map((item) => (
                       <div key={item.title}>
                         <h3 className={classes.roadmapItemTitle}>

@@ -19,13 +19,13 @@ export default function Story() {
     <div className={classes.section}>
       <Fade duration={2000} bottom cascade>
         <GridContainer justify="center">
-          <h2 className={classes.title}>The Disco Astronaut Club</h2>
+          <h2 className={classes.title}>Value Proposition</h2>
           <br />
           <GridItem xs={12} sm={10} md={10} className={classes.sectionArea}>
             <GridItem xs={12} sm={8} md={6}>
               <h4 className={classes.description}>
                 {
-                  "The Disconauts are a group of exploratory rebels who band together, board star-ships, and blast into space in search of adventure across the universe. They are fleeing their home planet, once a place of freedom, innovation, and creative expression, which has come under the power of a ruling Overlord. Social gatherings, music, and festivals had been banned and the people there live in fear. The Disconauts oppose everything the Overlord stands for and the empire he commands."
+                  "This animated parody of a House Reality show features cast members from five different NFT communities who are transported to LA to experience life in the real world."
                 }
               </h4>
             </GridItem>
@@ -33,7 +33,7 @@ export default function Story() {
               <img
                 className={classes.image}
                 src={
-                  "https://ik.imagekit.io/5ierklngtbt/img/story/Disconaut_93oDYnJ78?ik-sdk-version=javascript-1.4.3&updatedAt=1643773831802"
+                  "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.27.02_PM_bBPIlXfFYy.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656368867146"
                 }
                 alt="Disconaut Scene"
               />
@@ -52,7 +52,7 @@ export default function Story() {
               <img
                 className={classes.image}
                 src={
-                  "https://ik.imagekit.io/5ierklngtbt/img/story/Gathering_iNsmL3lE3fp?ik-sdk-version=javascript-1.4.3&updatedAt=1643773858123"
+                  "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.37.16_PM_2yIgJycx1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656369449609"
                 }
                 alt="Gathering Scene"
               />
@@ -65,7 +65,7 @@ export default function Story() {
                 )}
               >
                 {
-                  "A symbol of personal sovereignty and creative and technical expression, the music festival is the Disconauts key tool of rebellion. Strictly banned on their planet, the Disconauts use concerts as a way to prove their independence and establish their identities. Their mission, to throw the greatest festivals in the universe and establish utopian colonies in accordance with their ideals."
+                  "And, just like a reality TV show, our cast is ready for primetime! Fights? Parties? Bad Advice? Let’s just say, they’ll share a house, make some jokes, make some mistakes, and maybe even make out!"
                 }
               </h4>
             </GridItem>
@@ -82,7 +82,7 @@ export default function Story() {
             <GridItem xs={12} sm={8} md={6}>
               <h4 className={classes.description}>
                 {
-                  "And now, theyre landing on Earth, ready to bring incredible music and futuristic technology to experience Metaverse concerts and DAC shows taking place on distant planets. Stay tuned as the Disconauts explore the stars, find new planets and throw monumental music events. Join the space fleet on mint to join the club."
+                  "Join our community to influence cast decisions, create episodes, and control the fate of Season 2!"
                 }
               </h4>
             </GridItem>
@@ -90,7 +90,7 @@ export default function Story() {
               <img
                 className={classes.image}
                 src={
-                  "https://ik.imagekit.io/5ierklngtbt/img/story/Party_D7ZilzNIt?ik-sdk-version=javascript-1.4.3&updatedAt=1643773798811"
+                  "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.27.13_PM_-D3Uq14Rt.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656368866964"
                 }
                 alt="Party Scene"
               />

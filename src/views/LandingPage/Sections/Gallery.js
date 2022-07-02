@@ -23,14 +23,14 @@ export default function Gallery() {
   return (
     <div className={classes.section}>
       <div>
-        <h2 className={classes.title}>Gallery</h2>
+        <h2 className={classes.title}>Characters</h2>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
                   src={
-                    "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/1_07ghlq8zB?ik-sdk-version=javascript-1.4.3&updatedAt=1643819588268"
+                    "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.42.11_PM_239UtY-Dx.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656369757639"
                   }
                   alt="Disconaut Suit"
                   className={imageClasses}
@@ -43,7 +43,7 @@ export default function Gallery() {
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
                   src={
-                    "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/9_nn8PuGDK0?ik-sdk-version=javascript-1.4.3&updatedAt=1643834347824"
+                    "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.42.06_PM_1Em_tIeDN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656369757760"
                   }
                   alt="Disconaut Suit"
                   className={imageClasses}
@@ -56,7 +56,7 @@ export default function Gallery() {
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
                   src={
-                    "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/14_c2NJaspPcQM.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643834233162"
+                    "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.41.55_PM_kGbZLfnvs9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656369758022"
                   }
                   alt="Disconaut Suit"
                   className={imageClasses}

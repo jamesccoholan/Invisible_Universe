@@ -1,20 +1,20 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-discoastronautclub-dev-182135-authRole",
-      "UnauthRoleArn": "arn:aws:iam::757887447730:role/amplify-discoastronautclub-dev-182135-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::757887447730:role/amplify-discoastronautclub-dev-182135-authRole",
+      "AuthRoleName": "amplify-invisibleuniverse-dev-144100-authRole",
+      "UnauthRoleArn": "arn:aws:iam::757887447730:role/amplify-invisibleuniverse-dev-144100-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::757887447730:role/amplify-invisibleuniverse-dev-144100-authRole",
       "Region": "us-west-2",
-      "DeploymentBucketName": "amplify-discoastronautclub-dev-182135-deployment",
-      "UnauthRoleName": "amplify-discoastronautclub-dev-182135-unauthRole",
-      "StackName": "amplify-discoastronautclub-dev-182135",
-      "StackId": "arn:aws:cloudformation:us-west-2:757887447730:stack/amplify-discoastronautclub-dev-182135/5513f020-944f-11ec-8e1d-02f587ecb6e5",
-      "AmplifyAppId": "d1vb4e7xo7ow8n"
+      "DeploymentBucketName": "amplify-invisibleuniverse-dev-144100-deployment",
+      "UnauthRoleName": "amplify-invisibleuniverse-dev-144100-unauthRole",
+      "StackName": "amplify-invisibleuniverse-dev-144100",
+      "StackId": "arn:aws:cloudformation:us-west-2:757887447730:stack/amplify-invisibleuniverse-dev-144100/d714d4d0-f661-11ec-bade-0a80d3dd348b",
+      "AmplifyAppId": "dbayb1tm9hb4s"
     },
     "categories": {
       "hosting": {
         "amplifyhosting": {
-          "appId": "d1vb4e7xo7ow8n",
+          "appId": "dbayb1tm9hb4s",
           "type": "manual"
         }
       }

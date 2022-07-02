@@ -15,49 +15,19 @@ import styles from "assets/jss/material-kit-react/views/landingPageSections/team
 
 const team = [
   {
-    name: "James",
-    job: "Creative Director and Virtual Producer",
-    img: "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/2_T0dR38pVf?ik-sdk-version=javascript-1.4.3&updatedAt=1643769195521",
+    name: "Jake",
+    job: "Creative Director",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.41.59_PM_mBP4M6AxQ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656369757757",
   },
   {
-    name: "Andy",
-    job: "Partnerships, Promotion and Strategy",
-    img: "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/3_xvb2rDJVx?ik-sdk-version=javascript-1.4.3&updatedAt=1643769156579",
+    name: "Lauren",
+    job: "Artist",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.41.46_PM_Qgzf3eNEGJ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656369758166",
   },
   {
-    name: "Ilan",
-    job: "Smart Contracts",
-    img: "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/4_2QbWZ8_lE?ik-sdk-version=javascript-1.4.3&updatedAt=1643773553282",
-  },
-  {
-    name: "Stephen",
-    job: "Web Dev and Smart Contracts",
-    img: "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/5_ufGRMXH-h?ik-sdk-version=javascript-1.4.3&updatedAt=1643773516872",
-  },
-  {
-    name: "Dave",
-    job: "Content Strategist and Promotion",
-    img: "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/6_iaiuTA35f?ik-sdk-version=javascript-1.4.3&updatedAt=1643773577781",
-  },
-  {
-    name: "Ben",
-    job: "Music Production and Distribution",
-    img: "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/7_gsewDuGLM?ik-sdk-version=javascript-1.4.3&updatedAt=1643773486839",
-  },
-  {
-    name: "Jamison",
-    job: "Franchise Development",
-    img: "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/11_Sy5D6Z-YW?ik-sdk-version=javascript-1.4.3&updatedAt=1643773690863",
-  },
-  {
-    name: "Dre",
-    job: "Content Strategist and Promotion",
-    img: "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/9_1frbXBDJw?ik-sdk-version=javascript-1.4.3&updatedAt=1643773717216",
-  },
-  {
-    name: "Alex",
-    job: "Video Production",
-    img: "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/12_3G5yM3e2q?ik-sdk-version=javascript-1.4.3&updatedAt=1643773632536",
+    name: "Dan",
+    job: "Engineer",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.42.06_PM_1Em_tIeDN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656369757760",
   },
 ];
 

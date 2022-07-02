@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import InfoArea from "components/InfoArea/InfoArea.js";
+// import InfoArea from "components/InfoArea/InfoArea.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 
@@ -17,25 +17,32 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>
-            The First Virtually Native On-Chain Artist Collective
-          </h2>
+          <h2 className={classes.title}>Episode Guide</h2>
         </GridItem>
       </GridContainer>
       <div>
         <GridContainer>
-          <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
+          <GridItem>
+            <GridItem>
+              <img
+                className={classes.image}
+                src={
+                  "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_2.46.29_PM_4g6ERahCj.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656368258846"
+                }
+                alt="Disconaut Scene"
+              />
+            </GridItem>
+            {/* <InfoArea
               title="10K NFT Collection"
               description="10,000 Unique Pieces of Generative 3D Art and Music."
               icon={
-                "https://ik.imagekit.io/5ierklngtbt/img/Red_Chrome_Vn55ewCad?ik-sdk-version=javascript-1.4.3&updatedAt=1643768599156"
+                "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_2.46.29_PM_4g6ERahCj.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656368258846"
               }
               alt="Disconaut NFT"
               vertical
-            />
+            /> */}
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          {/* <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Virtual Artists, Original Music"
               description="Music and Visual Media Drops. Royalties Distributed to NFT Holders."
@@ -56,11 +63,11 @@ export default function ProductSection() {
               alt="Disconaut NFT"
               vertical
             />
-          </GridItem>
+          </GridItem> */}
         </GridContainer>
-        <GridContainer justify="center">
+        {/* <GridContainer justify="center">
           <h2 className={classes.title}> </h2>
-        </GridContainer>
+        </GridContainer> */}
       </div>
     </div>
   );

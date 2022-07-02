@@ -34,7 +34,7 @@ export default function HeaderLinks(props) {
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/DiscoAstroClub"
+            href="https://twitter.com"
             target="_blank"
             color="transparent"
             className={classes.navLink}
@@ -56,7 +56,7 @@ export default function HeaderLinks(props) {
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://discord.com/invite/bKg4jryrrB"
+            href="https://discord.com"
             target="_blank"
             color="transparent"
             className={classes.navLink}
@@ -74,7 +74,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/discoastronautclub/?hl=en"
+            href="https://www.instagram.com"
             target="_blank"
             className={classes.navLink}
           >
@@ -91,7 +91,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://youtu.be/ezRnFj08KlI"
+            href="https://www.youtube.com"
             target="_blank"
             className={classes.navLink}
           >

@@ -15,7 +15,7 @@ const useStyles = makeStyles(styles);
 const roadmapItems = [
   {
     phase: 1,
-    img: "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.41.55_PM_kGbZLfnvs9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656369758022",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/Website/01_Pete_CoinFront_OHfyRigcC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657146325564",
     items: [
       {
         title: "Rarity",
@@ -31,7 +31,7 @@ const roadmapItems = [
   },
   {
     phase: 2,
-    img: "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.41.59_PM_mBP4M6AxQ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656369757757",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/Website/02_Monty_CoinFront_bJD8mgtkJ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657146326029",
     items: [
       {
         title: "Hollywood",
@@ -42,7 +42,7 @@ const roadmapItems = [
   },
   {
     phase: 3,
-    img: "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.42.11_PM_239UtY-Dx.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656369757639",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/Website/03_Sam_CoinFront_nFgutHxXUq.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657146326380",
     items: [
       {
         title: "Beverly Hills",
@@ -79,7 +79,7 @@ export default function WorkSection() {
                     className={classes.roadmapDot}
                   />
                   <div className={classes.roadmapSection}>
-                    <h1 className={classes.roadmapPhase}>{r.phase}</h1>
+                    <h1 className={classes.roadmapPhase}>Phase {r.phase}</h1>
                     {r.items.map((item) => (
                       <div key={item.title}>
                         <h3 className={classes.roadmapItemTitle}>

@@ -27,9 +27,26 @@ export default function ProductSection() {
               <img
                 className={classes.image}
                 src={
-                  "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_2.46.29_PM_4g6ERahCj.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656368258846"
+                  "https://ik.imagekit.io/mbhxghyf1m2/Website/RoadMap_BG_sxt273W4SO.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657146329551"
                 }
-                alt="Disconaut Scene"
+                width="100%"
+                height="auto"
+              />
+              <img
+                className={classes.image}
+                src={
+                  "https://ik.imagekit.io/mbhxghyf1m2/Website/EpisodeGuide_BG_mOGO2silP2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657146331646"
+                }
+                width="100%"
+                height="auto"
+              />
+              <img
+                className={classes.image}
+                src={
+                  "https://ik.imagekit.io/mbhxghyf1m2/Website/EpisodeGuide_PlayBG_Expanded_ft-fzk_-MH.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657146329984"
+                }
+                width="100%"
+                height="auto"
               />
             </GridItem>
             {/* <InfoArea

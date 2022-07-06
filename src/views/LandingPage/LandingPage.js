@@ -21,6 +21,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.js";
 import VideoSection from "./Sections/VideoSection.js";
+import IMGSection from "./Sections/FullIMG.js";
 import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/RoadmapSection.js";
 import Gallery from "./Sections/Gallery.js";
@@ -47,7 +48,7 @@ export default function LandingPage(props) {
       <Parallax
         filter
         image={
-          "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_2.41.33_PM_2D_07R86W.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656367762282"
+          "https://ik.imagekit.io/mbhxghyf1m2/Website/Screen_Shot_2022-07-06_at_3.34.34_PM_03080ZZDl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657146909029"
         }
         alt="Disco Astronaut Club"
       >
@@ -55,9 +56,9 @@ export default function LandingPage(props) {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Invisible Universe</h1>
-                <h2 className={classes.subtitle}>The Real Metaverse</h2>
-                <h4>Minting Soon</h4>
+                {/* <h1 className={classes.title}>The Real Metaverse</h1> */}
+
+                <img src="https://ik.imagekit.io/mbhxghyf1m2/Website/LandingPage_Logo_0_4VPs-DI.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657146328644" />
                 <br />
                 <Button
                   color="twitter"
@@ -70,6 +71,7 @@ export default function LandingPage(props) {
                   <i className="fas fa-play" />
                   Producers Portal
                 </Button>
+
                 {/* <Button
                   color="twitter"
                   size="lg"
@@ -86,7 +88,7 @@ export default function LandingPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <ProductSection />
+          <Gallery />
         </div>
       </div>
       <div>
@@ -94,13 +96,14 @@ export default function LandingPage(props) {
         <WorkSection />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
-            <Gallery />
+            <ProductSection />
           </div>
         </div>
         <Story />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <TeamSection />
+            <IMGSection />
           </div>
         </div>
       </div>

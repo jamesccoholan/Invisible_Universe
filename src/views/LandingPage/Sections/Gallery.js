@@ -23,14 +23,20 @@ export default function Gallery() {
   return (
     <div className={classes.section}>
       <div>
-        <h2 className={classes.title}>Characters</h2>
+        <h2 className={classes.title}>Cast Pages</h2>
+        <h4 className={classes.description}>
+          {
+            "This animated parody of a House Reality show features cast members from five different NFT communities who are transported to LA to experience life in the real world. And, just like a reality TV show, our cast is ready for primetime! Fights? Parties? Bad Advice? Let’s just say, they’ll share a house, make some jokes, make some mistakes, and maybe even make out! Join our community to influence cast decisions, create episodes, and control the fate of Season 2! "
+          }
+        </h4>
+        <h4 className={classes.description}>{""}</h4>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
                   src={
-                    "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.42.11_PM_239UtY-Dx.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656369757639"
+                    "https://ik.imagekit.io/mbhxghyf1m2/Website/01_Pete_CoinFront_OHfyRigcC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657146325564"
                   }
                   alt="Disconaut Suit"
                   className={imageClasses}
@@ -43,7 +49,7 @@ export default function Gallery() {
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
                   src={
-                    "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.42.06_PM_1Em_tIeDN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656369757760"
+                    "https://ik.imagekit.io/mbhxghyf1m2/Website/02_Monty_CoinFront_bJD8mgtkJ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657146326029"
                   }
                   alt="Disconaut Suit"
                   className={imageClasses}
@@ -56,7 +62,33 @@ export default function Gallery() {
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
                   src={
-                    "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.41.55_PM_kGbZLfnvs9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656369758022"
+                    "https://ik.imagekit.io/mbhxghyf1m2/Website/03_Sam_CoinFront_nFgutHxXUq.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657146326380"
+                  }
+                  alt="Disconaut Suit"
+                  className={imageClasses}
+                />
+              </GridItem>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
+                <img
+                  src={
+                    "https://ik.imagekit.io/mbhxghyf1m2/Website/04_Journey_CoinFront_KqNe-K5fF.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657146326824"
+                  }
+                  alt="Disconaut Suit"
+                  className={imageClasses}
+                />
+              </GridItem>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
+                <img
+                  src={
+                    "https://ik.imagekit.io/mbhxghyf1m2/Website/05_Claudine_CoinFront_KGNvtq_tzM.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657146327312"
                   }
                   alt="Disconaut Suit"
                   className={imageClasses}

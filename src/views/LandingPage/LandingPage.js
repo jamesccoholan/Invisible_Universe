@@ -28,7 +28,7 @@ import TeamSection from "./Sections/TeamSection.js";
 // import FULL from "./Sections/FULL.js";
 import Gallery from "./Sections/Gallery.js";
 import Story from "./Sections/Story.js";
-import Story2 from "./Sections/Story2.js";
+// import Story2 from "./Sections/Story2.js";
 // import FAQ from "./Sections/FAQ.js";
 
 const dashboardRoutes = [];
@@ -98,11 +98,8 @@ export default function LandingPage(props) {
       <ProductSection />
       <ProductSection2 />
       <div>
-        <Story2 />
         <div className={classNames(classes.main, classes.mainRaised)}>
-          <div className={classes.container}>
-            <ProductSection />
-          </div>
+          <div className={classes.container}>{/* <ProductSection /> */}</div>
         </div>
         <Story />
         <div className={classNames(classes.main, classes.mainRaised)}>

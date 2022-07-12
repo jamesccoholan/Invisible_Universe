@@ -20,12 +20,15 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.js";
+import ProductSection2 from "./Sections/ProductSection2.js";
 // import VideoSection from "./Sections/VideoSection.js";
 // import IMGSection from "./Sections/FullIMG.js";
 import TeamSection from "./Sections/TeamSection.js";
-import WorkSection from "./Sections/RoadmapSection.js";
+// import WorkSection from "./Sections/RoadmapSection.js";
+// import FULL from "./Sections/FULL.js";
 import Gallery from "./Sections/Gallery.js";
 import Story from "./Sections/Story.js";
+import Story2 from "./Sections/Story2.js";
 // import FAQ from "./Sections/FAQ.js";
 
 const dashboardRoutes = [];
@@ -89,14 +92,13 @@ export default function LandingPage(props) {
           </div>
         </Fade>
       </Parallax>
-      <div className={classNames(classes.main2, classes.mainRaised)}>
-        <div className={classes.container}>
-          <Gallery />
-        </div>
+      <div className={classNames(classes.main2, classes.container2)}>
+        <Gallery />
       </div>
+      <ProductSection />
+      <ProductSection2 />
       <div>
-        {/* <VideoSection /> */}
-        <WorkSection />
+        <Story2 />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <ProductSection />

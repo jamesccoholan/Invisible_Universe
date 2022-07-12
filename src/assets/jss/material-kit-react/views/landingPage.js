@@ -20,7 +20,6 @@ const landingPageStyle = {
     fontSize: "1.313rem",
     maxWidth: "500px",
     margin: "10px 0 auto 0",
-    // marginTop: "180px",
   },
   main: {
     background: "#FFFFFF",
@@ -31,6 +30,7 @@ const landingPageStyle = {
     background: "#000000",
     position: "relative",
     zIndex: "3",
+    textAlign: "center",
   },
   mainRaised: {
     margin: "0px 0px 0px",

@@ -9,11 +9,11 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Fade from "react-reveal/Fade";
 
-import styles from "assets/jss/material-kit-react/views/landingPageSections/storyStyle.js";
+import styles from "assets/jss/material-kit-react/views/landingPageSections/storyStyle2.js";
 
 const useStyles = makeStyles(styles);
 
-export default function Story() {
+export default function Story2() {
   const classes = useStyles();
   return (
     <div className={classes.section}>
@@ -21,22 +21,15 @@ export default function Story() {
         <GridContainer justify="center">
           <h2 className={classes.title}>Value Proposition</h2>
           <br />
-          <GridItem xs={12} sm={10} md={10} className={classes.sectionArea}>
-            <GridItem xs={12} sm={8} md={6}>
-              <h4 className={classes.description}>
-                {
-                  "This animated parody of a House Reality show features cast members from five different NFT communities who are transported to LA to experience life in the real world."
-                }
-              </h4>
-            </GridItem>
-            <GridItem xs={12} sm={4} md={6}>
-              {/* <img
+          <GridItem className={classes.sectionArea}>
+            <GridItem>
+              <img
                 className={classes.image}
                 src={
                   "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.27.02_PM_bBPIlXfFYy.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656368867146"
                 }
-                alt="Disconaut Scene"
-              /> */}
+                alt="IU"
+              />
             </GridItem>
           </GridItem>
           <GridItem
@@ -49,13 +42,13 @@ export default function Story() {
             )}
           >
             <GridItem xs={12} sm={4} md={6}>
-              <img
+              {/* <img
                 className={classes.image}
                 src={
                   "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-27_at_3.37.16_PM_2yIgJycx1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656369449609"
                 }
                 alt="Gathering Scene"
-              />
+              /> */}
             </GridItem>
             <GridItem xs={12} sm={8} md={6}>
               <h4

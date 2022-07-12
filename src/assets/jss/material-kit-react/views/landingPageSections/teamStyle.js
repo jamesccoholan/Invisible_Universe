@@ -8,11 +8,13 @@ const teamStyle = {
   title: {
     ...title,
     marginBottom: "1rem",
+    color: "#FFFFFF",
     marginTop: "30px",
     minHeight: "32px",
     textDecoration: "none",
   },
   ...imagesStyle,
+
   itemGrid: {
     marginLeft: "auto",
     marginRight: "auto",
@@ -23,7 +25,9 @@ const teamStyle = {
     textAlign: "left",
   },
   description: {
-    color: "#3C4858",
+    marginTop: "50px",
+    color: "#FFFFFF",
+    textAlign: "left",
   },
   justifyCenter: {
     justifyContent: "center !important",

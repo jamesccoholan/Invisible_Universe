@@ -15,20 +15,12 @@ const useStyles = makeStyles(styles);
 
 export default function Gallery() {
   const classes = useStyles();
-  const imageClasses = classNames(
-    classes.imgRaised,
-    // classes.imgRoundedCircle,
-    classes.imgFluid
-  );
+  const imageClasses = classNames(classes.imgRaised, classes.imgFluid);
   return (
     <div className={classes.section}>
       <div>
         <h2 className={classes.title}>Cast Pages</h2>
-        <h4 className={classes.description}>
-          {
-            "This animated parody of a House Reality show features cast members from five different NFT communities who are transported to LA to experience life in the real world. And, just like a reality TV show, our cast is ready for primetime! Fights? Parties? Bad Advice? Let’s just say, they’ll share a house, make some jokes, make some mistakes, and maybe even make out! Join our community to influence cast decisions, create episodes, and control the fate of Season 2! "
-          }
-        </h4>
+        <h4 className={classes.description}>{""}</h4>
         <h4 className={classes.description}>{""}</h4>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
@@ -38,7 +30,7 @@ export default function Gallery() {
                   src={
                     "https://ik.imagekit.io/mbhxghyf1m2/Website/01_Pete_CoinFront_OHfyRigcC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657146325564"
                   }
-                  alt="Disconaut Suit"
+                  alt="IU"
                   className={imageClasses}
                 />
               </GridItem>

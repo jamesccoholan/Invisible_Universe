@@ -23,10 +23,13 @@ import ProductSection from "./Sections/ProductSection.js";
 import ProductSection2 from "./Sections/ProductSection2.js";
 // import VideoSection from "./Sections/VideoSection.js";
 // import IMGSection from "./Sections/FullIMG.js";
-import TeamSection from "./Sections/TeamSection.js";
+// import TeamSection from "./Sections/TeamSection.js";
 // import WorkSection from "./Sections/RoadmapSection.js";
+import WorkSection2 from "./Sections/RoadmapSection2.js";
 // import FULL from "./Sections/FULL.js";
 import Gallery from "./Sections/Gallery.js";
+import Gallery3 from "./Sections/Gallery3.js";
+// import Gallery2 from "./Sections/Gallery2.js";
 import Story from "./Sections/Story.js";
 // import Story2 from "./Sections/Story2.js";
 // import FAQ from "./Sections/FAQ.js";
@@ -58,7 +61,7 @@ export default function LandingPage(props) {
         <Fade duration={2000} bottom cascade>
           <div className={classes.container}>
             <GridContainer>
-              <GridItem xs={12} sm={12} md={6}>
+              <GridItem xs={12} sm={12} md={7}>
                 {/* <Button
                   color="twitter"
                   size="lg"
@@ -102,10 +105,12 @@ export default function LandingPage(props) {
           <div className={classes.container}>{/* <ProductSection /> */}</div>
         </div>
         <Story />
-        <div className={classNames(classes.main, classes.mainRaised)}>
+        {/* <WorkSection /> */}
+        <WorkSection2 />
+        <div className={classNames(classes.main2, classes.mainRaised)}>
           <div className={classes.container}>
-            <TeamSection />
-            {/* <IMGSection /> */}
+            {/* <TeamSection /> */}
+            <Gallery3 />
           </div>
         </div>
       </div>

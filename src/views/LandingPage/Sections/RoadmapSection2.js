@@ -53,21 +53,21 @@ const roadmapItems = [
   },
 ];
 
-export default function WorkSection() {
+export default function WorkSection2() {
   const classes = useStyles();
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
           <Fade duration={1000} bottom cascade>
-            <div>
+            {/* <div>
               <h1 className={classes.title}>Roadmap</h1>
               <h4 className={classes.description}>
                 {
                   "This animated parody of a House Reality show features cast members from five different NFT communities who are transported to LA to experience life in the real world. And, just like a reality TV show, our cast is ready for primetime! Fights? Parties? Bad Advice? Let’s just say, they’ll share a house, make some jokes, make some mistakes, and maybe even make out! Join our community to influence cast decisions, create episodes, and control the fate of Season 2! "
                 }
               </h4>
-            </div>
+            </div> */}
           </Fade>
           <div className={classes.roadmapContainer}>
             {roadmapItems.map((r) => (

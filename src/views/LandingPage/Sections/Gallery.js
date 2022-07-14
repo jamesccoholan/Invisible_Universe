@@ -23,65 +23,140 @@ export default function Gallery() {
         <GridItem xs={5} sm={12} md={2}>
           <Card plain>
             <GridItem xs={100} className={classes.itemGrid}>
-              <img
+              {/* <img
                 src={
                   "https://ik.imagekit.io/mbhxghyf1m2/Website/01_Pete_CoinFront_OHfyRigcC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657146325564"
                 }
                 alt="IU"
                 className={imageClasses}
-              />
+              /> */}
+              <video
+                autoPlay
+                loop
+                muted
+                playsinline
+                webkit-playsinline
+                width="220"
+                height="220"
+                className={imageClasses}
+              >
+                <source
+                  src={"assets/mp4/01_Pete_2dTo3d (Stitched Clip).mp4"}
+                  type="video/mp4"
+                />
+              </video>
             </GridItem>
           </Card>
         </GridItem>
         <GridItem xs={5} sm={12} md={2}>
           <Card plain>
             <GridItem xs={100} sm={100} md={0} className={classes.itemGrid}>
-              <img
+              {/* <img
                 src={
                   "https://ik.imagekit.io/mbhxghyf1m2/Website/02_Monty_CoinFront_bJD8mgtkJ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657146326029"
                 }
                 alt="IU"
                 className={imageClasses}
-              />
+              /> */}
+              <video
+                autoPlay
+                loop
+                muted
+                playsinline
+                webkit-playsinline
+                width="220"
+                height="220"
+                className={imageClasses}
+              >
+                <source
+                  src={"assets/mp4/02_Monty_2dTo3d (Stitched Clip).mp4"}
+                  type="video/mp4"
+                />
+              </video>
             </GridItem>
           </Card>
         </GridItem>
         <GridItem xs={12} sm={12} md={2}>
           <Card plain>
             <GridItem xs={100} sm={100} md={0} className={classes.itemGrid}>
-              <img
+              {/* <img
                 src={
                   "https://ik.imagekit.io/mbhxghyf1m2/Website/03_Sam_CoinFront_nFgutHxXUq.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657146326380"
                 }
                 alt="Disconaut Suit"
                 className={imageClasses}
-              />
+              /> */}
+              <video
+                autoPlay
+                loop
+                muted
+                playsinline
+                webkit-playsinline
+                width="220"
+                height="220"
+                className={imageClasses}
+              >
+                <source
+                  src={"03_Sam_2dTo3d (Stitched Clip).mp4"}
+                  type="video/mp4"
+                />
+              </video>
             </GridItem>
           </Card>
         </GridItem>
         <GridItem xs={12} sm={12} md={2}>
           <Card plain>
             <GridItem xs={100} sm={100} md={0} className={classes.itemGrid}>
-              <img
+              {/* <img
                 src={
                   "https://ik.imagekit.io/mbhxghyf1m2/Website/04_Journey_CoinFront_KqNe-K5fF.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657146326824"
                 }
                 alt="Disconaut Suit"
                 className={imageClasses}
-              />
+              /> */}
+              <video
+                autoPlay
+                loop
+                muted
+                playsinline
+                webkit-playsinline
+                width="220"
+                height="220"
+                className={imageClasses}
+              >
+                <source
+                  src={"04_Journey_2dTo3d (Stitched Clip).mp4"}
+                  type="video/mp4"
+                />
+              </video>
             </GridItem>
           </Card>
         </GridItem>
         <GridItem xs={12} sm={12} md={2}>
           <Card plain>
             <GridItem xs={100} sm={100} md={0} className={classes.itemGrid}>
-              <img
+              {/* <img
                 src={
                   "https://ik.imagekit.io/mbhxghyf1m2/Website/05_Claudine_CoinFront_KGNvtq_tzM.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657146327312"
                 }
                 alt="Disconaut Suit"
                 className={imageClasses}
-              />
+              /> */}
+              <video
+                autoPlay
+                loop
+                muted
+                playsinline
+                webkit-playsinline
+                width="220"
+                height="220"
+                className={imageClasses}
+              >
+                <source
+                  src={"05_Claudine_2dTo3d (Stitched Clip).mp4"}
+                  type="video/mp4"
+                />
+              </video>
             </GridItem>
           </Card>
         </GridItem>

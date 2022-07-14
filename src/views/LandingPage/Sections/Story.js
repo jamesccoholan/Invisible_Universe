@@ -19,13 +19,13 @@ export default function Story() {
     <div className={classes.section}>
       <Fade duration={2000} bottom cascade>
         <GridContainer justify="center">
-          <h2 className={classes.title}>Value Proposition</h2>
-          <br />
-          <GridItem xs={12} sm={10} md={10} className={classes.sectionArea}>
+          <h2 className={classes.title2}>RARITY</h2>
+
+          <GridItem xs={12} sm={10} md={20} className={classes.sectionArea}>
             <GridItem xs={12} sm={8} md={6}>
               <h4 className={classes.description}>
                 {
-                  "This animated parody of a House Reality show features cast members from five different NFT communities who are transported to LA to experience life in the real world."
+                  "Our Producer Passes are designed to become your Twitter banner. We chose this underutilized stvle to accentuate the fact that while our characters may originate in different communities, thev only exist together here on The R3eal Metaverse. Over 100 different traits algorithmi- cally combine iconic locations in Los Angeles with award winning animation to generate over 4 million combinations. The Mint will randomly produce XXXX unique Producer Passes. In addition, 20 Ultra Rare Passes will be created. If you're lucky enough to mint one of these rare NFT's you will automatically receive 100 bonus points to be included on the Leader-board for a chance to win amazing opportunities."
                 }
               </h4>
             </GridItem>

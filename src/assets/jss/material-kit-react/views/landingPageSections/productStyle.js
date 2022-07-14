@@ -7,6 +7,12 @@ const productStyle = {
     height: "100%",
     width: "100%",
   },
+  section3: {
+    padding: "0px 0",
+    textAlign: "center",
+    height: "100%",
+    width: "100%",
+  },
   title: {
     ...title,
     marginBottom: "1rem",

@@ -11,7 +11,7 @@ import styles from "assets/jss/material-kit-react/views/landingPageSections/prod
 
 const useStyles = makeStyles(styles);
 
-export default function ProductSection2() {
+export default function ProductSection4() {
   const classes = useStyles();
   return (
     <div className={classes.section}>
@@ -24,7 +24,7 @@ export default function ProductSection2() {
         <img
           className={classes.image}
           src={
-            "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-07-14_at_1.27.52_PM_dZ8Mr0Db4.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657819689660"
+            "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-07-14_at_1.48.10_PM_1xgKrBE_g.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657820915514"
           }
           width="100%"
           height="auto"

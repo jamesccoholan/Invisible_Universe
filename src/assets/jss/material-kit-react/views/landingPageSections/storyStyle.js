@@ -1,8 +1,8 @@
-import { title } from "assets/jss/material-kit-react.js";
+import { title, title2 } from "assets/jss/material-kit-react.js";
 
 const storyStyle = {
   section: {
-    margin: "70px 0 170px 0",
+    margin: "0px 0 0px 0",
   },
   title: {
     ...title,
@@ -12,8 +12,16 @@ const storyStyle = {
     textDecoration: "none",
     textAlign: "center",
   },
+  title2: {
+    ...title2,
+    marginBottom: "50px",
+    marginTop: "30px",
+    minHeight: "32px",
+    textDecoration: "none",
+    textAlign: "center",
+  },
   description: {
-    color: "#3C4858",
+    color: "#FFFFFF",
     textAlign: "left",
   },
   descriptionRight: {

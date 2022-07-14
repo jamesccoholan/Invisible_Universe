@@ -42,6 +42,21 @@ const container2 = {
     maxWidth: "90040px",
   },
 };
+const container3 = {
+  ...containerFluid,
+  "@media (min-width: 576px)": {
+    maxWidth: "540px",
+  },
+  "@media (min-width: 768px)": {
+    maxWidth: "720px",
+  },
+  "@media (min-width: 992px)": {
+    maxWidth: "960px",
+  },
+  "@media (min-width: 120px)": {
+    maxWidth: "1100px",
+  },
+};
 
 const boxShadow = {
   boxShadow:
@@ -162,6 +177,14 @@ const title = {
   fontFamily: `"Roboto Slab", "Times New Roman", serif`,
 };
 
+const title2 = {
+  color: "#FFFFFF",
+  margin: "1.75rem 0 0.875rem",
+  textDecoration: "none",
+  fontWeight: "700",
+  fontFamily: `"Roboto Slab", "Times New Roman", serif`,
+};
+
 const cardTitle = {
   ...title,
   marginTop: ".625rem",
@@ -184,6 +207,7 @@ export {
   transition,
   container,
   container2,
+  container3,
   containerFluid,
   boxShadow,
   card,
@@ -214,6 +238,7 @@ export {
   cardHeader,
   defaultBoxShadow,
   title,
+  title2,
   cardTitle,
   cardLink,
   cardSubtitle,

@@ -24,7 +24,7 @@ export default function ProductSection() {
         <img
           className={classes.image}
           src={
-            "https://ik.imagekit.io/mbhxghyf1m2/Website/RoadMap_BG_sxt273W4SO.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657146329551"
+            "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-07-14_at_1.22.04_PM_8E9qSC0iE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657819401157"
           }
           width="100%"
           height="auto"
@@ -32,7 +32,7 @@ export default function ProductSection() {
         <img
           className={classes.image}
           src={
-            "https://ik.imagekit.io/mbhxghyf1m2/Website/EpisodeGuide_BG_mOGO2silP2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657146331646"
+            "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-07-14_at_1.24.12_PM_oCVqUt-Mm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657819466077"
           }
           width="100%"
           height="auto"

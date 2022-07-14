@@ -1,4 +1,9 @@
-import { container, container2, title } from "assets/jss/material-kit-react.js";
+import {
+  container,
+  container2,
+  container3,
+  title,
+} from "assets/jss/material-kit-react.js";
 
 const landingPageStyle = {
   container: {
@@ -12,6 +17,12 @@ const landingPageStyle = {
     color: "#FFFFFF",
 
     ...container2,
+  },
+  container3: {
+    zIndex: "12",
+    color: "#FFFFFF",
+    background: "#0a032d",
+    ...container3,
   },
   title: {
     ...title,
@@ -34,6 +45,12 @@ const landingPageStyle = {
   },
   main2: {
     background: "#000000",
+    position: "relative",
+    zIndex: "3",
+    textAlign: "center",
+  },
+  main3: {
+    background: "#0a032d",
     position: "relative",
     zIndex: "3",
     textAlign: "center",

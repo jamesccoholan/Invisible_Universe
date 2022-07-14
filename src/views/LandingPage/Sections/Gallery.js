@@ -96,10 +96,7 @@ export default function Gallery() {
                 height="220"
                 className={imageClasses}
               >
-                <source
-                  src={"03_Sam_2dTo3d (Stitched Clip).mp4"}
-                  type="video/mp4"
-                />
+                <source src={"assets/mp4/SAMS.mp4"} type="video/mp4" />
               </video>
             </GridItem>
           </Card>
@@ -125,7 +122,7 @@ export default function Gallery() {
                 className={imageClasses}
               >
                 <source
-                  src={"04_Journey_2dTo3d (Stitched Clip).mp4"}
+                  src={"assets/mp4/04_Journey_2dTo3d (Stitched Clip).mp4"}
                   type="video/mp4"
                 />
               </video>
@@ -153,7 +150,7 @@ export default function Gallery() {
                 className={imageClasses}
               >
                 <source
-                  src={"05_Claudine_2dTo3d (Stitched Clip).mp4"}
+                  src={"assets/mp4/05_Claudine_2dTo3d (Stitched Clip).mp4"}
                   type="video/mp4"
                 />
               </video>

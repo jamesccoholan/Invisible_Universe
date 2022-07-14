@@ -24,7 +24,7 @@ export default function ProductSection4() {
         <img
           className={classes.image}
           src={
-            "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-07-14_at_1.48.10_PM_1xgKrBE_g.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657820915514"
+            "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-07-14_at_1.49.54_PM_6_0P81e4D.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657821003709"
           }
           width="100%"
           height="auto"

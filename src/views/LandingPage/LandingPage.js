@@ -27,12 +27,12 @@ import ProductSection4 from "./Sections/ProductSection4.js";
 // import IMGSection from "./Sections/FullIMG.js";
 // import TeamSection from "./Sections/TeamSection.js";
 // import WorkSection from "./Sections/RoadmapSection.js";
-import WorkSection2 from "./Sections/RoadmapSection2.js";
+// import WorkSection2 from "./Sections/RoadmapSection2.js";
 // import FULL from "./Sections/FULL.js";
 import Gallery from "./Sections/Gallery.js";
 import Gallery3 from "./Sections/Gallery3.js";
 // import Gallery2 from "./Sections/Gallery2.js";
-import Story from "./Sections/Story.js";
+// import Story from "./Sections/Story.js";
 // import Story2 from "./Sections/Story2.js";
 // import FAQ from "./Sections/FAQ.js";
 
@@ -106,10 +106,10 @@ export default function LandingPage(props) {
           <ProductSection3 />
         </div>
         <div className={classNames(classes.main3)}>
-          <div className={classes.container3}>
+          {/* <div className={classes.container3}>
             <Story />
             <WorkSection2 />
-          </div>
+          </div> */}
           <div className={classNames(classes.main2)}>
             <div className={classes.container}>
               <Gallery3 />

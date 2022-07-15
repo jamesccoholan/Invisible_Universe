@@ -16,7 +16,7 @@ const teamStyle = {
   ...imagesStyle,
 
   itemGrid: {
-    marginLeft: "auto",
+    marginLeft: "150px",
     marginRight: "auto",
     justifyContent: "center !important",
   },

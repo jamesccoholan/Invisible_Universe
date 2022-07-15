@@ -20,6 +20,11 @@ const teamStyle = {
     marginRight: "auto",
     justifyContent: "center !important",
   },
+  itemGrid2: {
+    // marginLeft: "0px",
+    // marginRight: "auto",
+    justifyContent: "center !important",
+  },
   cardTitle,
   smallTitle: {
     color: "#6c757d",
@@ -32,8 +37,15 @@ const teamStyle = {
   },
   description2: {
     marginTop: "50px",
-    marginLeft: "50px",
-    marginRight: "50px",
+    marginLeft: "200px",
+    marginRight: "200px",
+    color: "#FFFFFF",
+    textAlign: "left",
+  },
+  description3: {
+    marginTop: "50px",
+    marginLeft: "40px",
+    marginRight: "40px",
     color: "#FFFFFF",
     textAlign: "left",
   },

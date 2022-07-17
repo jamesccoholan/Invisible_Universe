@@ -23,13 +23,6 @@ export default function Gallery() {
         <GridItem xs={5} sm={12} md={2}>
           <Card plain>
             <GridItem xs={100} className={classes.itemGrid}>
-              {/* <img
-                src={
-                  "https://ik.imagekit.io/mbhxghyf1m2/Website/01_Pete_CoinFront_OHfyRigcC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657146325564"
-                }
-                alt="IU"
-                className={imageClasses}
-              /> */}
               <video
                 autoPlay
                 loop

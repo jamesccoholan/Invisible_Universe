@@ -104,18 +104,13 @@ export default function LandingPage(props) {
           <ProductSection2 />
           <ProductSection4 />
           <ProductSection3 />
+          <Gallery3 />
         </div>
-        <div className={classNames(classes.main3)}>
-          {/* <div className={classes.container3}>
-            <Story />
-            <WorkSection2 />
-          </div> */}
+        {/* <div className={classNames(classes.main3)}>
           <div className={classNames(classes.main2)}>
-            <div className={classes.container}>
-              <Gallery3 />
-            </div>
+            <div className={classes.container}></div>
           </div>
-        </div>
+        </div> */}
         <Footer />
       </div>
     </div>

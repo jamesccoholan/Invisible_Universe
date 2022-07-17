@@ -40,15 +40,19 @@ const landingPageStyle = {
   },
   main: {
     background: "#FFFFFF",
-    position: "relative",
+    position: "flex",
     zIndex: "3",
   },
   main2: {
     background: "#000000",
-    position: "relative",
+    position: "flex",
     zIndex: "3",
     textAlign: "center",
+    width: "100%",
+    height: "100%",
+    overflow: "hidden",
   },
+
   main3: {
     background: "#0a032d",
     position: "relative",

@@ -45,11 +45,9 @@ const landingPageStyle = {
   },
   main2: {
     background: "#000000",
-    position: "flex",
+    position: "relative",
     zIndex: "3",
     textAlign: "center",
-    width: "100%",
-    height: "100%",
     overflow: "hidden",
   },
 

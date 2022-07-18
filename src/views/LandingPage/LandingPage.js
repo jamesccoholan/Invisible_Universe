@@ -31,6 +31,7 @@ import ProductSection4 from "./Sections/ProductSection4.js";
 // import FULL from "./Sections/FULL.js";
 import Gallery from "./Sections/Gallery.js";
 import Gallery3 from "./Sections/Gallery3.js";
+import Gallery4 from "./Sections/Gallery4.js";
 // import Gallery2 from "./Sections/Gallery2.js";
 // import Story from "./Sections/Story.js";
 // import Story2 from "./Sections/Story2.js";
@@ -105,6 +106,9 @@ export default function LandingPage(props) {
           <ProductSection4 />
           <ProductSection3 />
           <Gallery3 />
+        </div>
+        <div>
+          <Gallery4 style={{ background: "#000000" }} />
         </div>
         {/* <div className={classNames(classes.main3)}>
           <div className={classNames(classes.main2)}>

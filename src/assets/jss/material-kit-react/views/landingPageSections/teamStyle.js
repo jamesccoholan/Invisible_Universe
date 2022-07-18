@@ -7,12 +7,13 @@ const teamStyle = {
   },
   title: {
     ...title,
-    marginBottom: "1rem",
     color: "#FFFFFF",
-    marginTop: "30px",
     minHeight: "32px",
+    marginLeft: "200px",
+    marginRight: "200px",
     textDecoration: "none",
   },
+
   ...imagesStyle,
 
   itemGrid: {
@@ -20,9 +21,27 @@ const teamStyle = {
     marginRight: "auto",
     justifyContent: "center !important",
   },
+
+  title7: {
+    minHeight: "32px",
+    marginLeft: "200px",
+    marginRight: "200px",
+    textDecoration: "none",
+  },
+
+  column: {
+    float: "left",
+    width: "25%",
+  },
+
+  /* Clear floats after the columns */
+  // row: after {
+  //   content: "",
+  //   display: "table",
+  //   clear: "both",
+  // },
+
   itemGrid2: {
-    // marginLeft: "0px",
-    // marginRight: "auto",
     justifyContent: "center !important",
   },
   cardTitle,
@@ -44,8 +63,9 @@ const teamStyle = {
   },
   description3: {
     marginTop: "50px",
-    marginLeft: "40px",
-    marginRight: "40px",
+    marginLeft: "200px",
+    marginRight: "200px",
+
     color: "#FFFFFF",
     textAlign: "left",
   },
